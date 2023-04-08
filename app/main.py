@@ -7,7 +7,8 @@ app = FastAPI()
 @app.get('/')
 async def root():
     return {
-             {'Id': '1',
+             {
+             'Id': '1',
              'Title': 'Harry Potter' ,
              'Author': 'J.K Rowling', 
              'Year of publication': '2015'
